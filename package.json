@@ -1,0 +1,23 @@
+{
+  "name": "parcel-react-typescript-vscode",
+  "version": "1.0.0",
+  "description": "React app written in TypeScript with Parcel bundler that works with VSCode debugger",
+  "main": "index.js",
+  "repository": "mohsen1/parcel-react-typescript-vscode/",
+  "author": "Mohsen Azimi <me@azimi.me>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "NODE_ENV=production parcel build"
+  },
+  "dependencies": {
+    "@types/react": "^16.3.17",
+    "@types/react-dom": "^16.0.6",
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-typescript": "^0.7.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "tslib": "^1.9.2",
+    "typescript": "^2.9.1"
+  }
+}
